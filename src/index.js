@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'; // importa react
+import ReactDOM from 'react-dom/client'; // paquete que permite conectar react con el DOM
+import './index.css'; // importar los estilos
+import App from './App'; // importar el archivo o componente app.js
+import reportWebVitals from './reportWebVitals'; // paquete que permite generar reportes pero no es necesario al principio
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>
 );
 
